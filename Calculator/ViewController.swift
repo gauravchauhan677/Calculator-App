@@ -13,14 +13,10 @@ class ViewController: UIViewController {
     @IBOutlet weak var calculatorResults: UILabel!
     
     var workings:String = ""
-    
-    
-    
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
         clearAll()
     }
     
